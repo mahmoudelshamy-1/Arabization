@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f8;
+    padding: 20px;
+    direction: rtl;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 90%;
+    width: 650px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    margin: 15px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #0066cc;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 250px;
+}
+
+button:hover {
+    background: #004c99;
+}
+
+
+#downloadBtn {
+    display: none;
+    background: #00994d;
+    margin-bottom: 20px;
+}
+
+#downloadBtn:hover {
+    background: #007a3a;
+}
+
+
+pre {
+    white-space: pre-wrap;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: right;
+    min-height: 150px;
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    pre {
+        padding: 10px;
+    }
+}
